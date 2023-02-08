@@ -28,10 +28,12 @@ public class Author {
 
     private String country;
 
+
+
     @Column(unique = true)
     private String email;
 
     @OneToMany(mappedBy = "author" ,cascade = CascadeType.ALL)
-    private List<Book> bookwritten;
+    private List<Book> bookwritten ;
 
 }

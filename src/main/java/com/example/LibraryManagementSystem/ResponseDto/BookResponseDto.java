@@ -6,4 +6,8 @@ public class BookResponseDto
 {
     String name;
     Genre genre;
+
+
+
+
 }
